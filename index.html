@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songlist"></div>
+        <h2>Best of NCS- No Copyrights</h2>
+        <div class="songitemcontainer">
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Soch Na Sake</span>
+            <span class="songlistplay"><span class="timestamp">04:50 <i id="0" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Raabta</span>
+            <span class="songlistplay"><span class="timestamp">03:40 <i id="1" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Chod Diya</span>
+            <span class="songlistplay"><span class="timestamp">05:50 <i id="2" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Bandeya </span>
+            <span class="songlistplay"><span class="timestamp">03:50 <i id="3" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Pal</span>
+            <span class="songlistplay"><span class="timestamp">04:50 <i id="4" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Pinga</span>
+            <span class="songlistplay"><span class="timestamp">04:00 <i id="5" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+        <div class="songitem">
+            <img src="cover1.jpg" alt="1">
+            <span class="Songname">Teri Diwani</span>
+            <span class="songlistplay"><span class="timestamp">04:10 <i id="6" class="fa-solid songitemplay fa-circle-play"></i></span>
+            </span>
+        </div>
+    </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i  class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i  class="fa-solid fa-2x fa-circle-play" id="mastersplay"></i>
+            <i  class="fa-solid fa-2x fa-forward-step" id="next"></i>
+
+        </div>
+        <div class="songinfo">
+            <img src="t.gif" width="60px " height="20px" id="gif" > <span id="mastersongname">Soch Na Sake</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/48cf09b9f1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
